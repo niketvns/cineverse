@@ -14,7 +14,8 @@ const Page = () => {
         </div>
         <section className={"pt-5 flex flex-col gap-6"}>
           <h1 className={"text-3xl font-bold"}>
-            We'd love to hear <span className={"text-red-600"}>from you</span>
+            We&apos;d love to hear{" "}
+            <span className={"text-red-600"}>from you</span>
           </h1>
           <ContactForm />
         </section>
